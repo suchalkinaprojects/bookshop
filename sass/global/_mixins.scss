@@ -1,0 +1,17 @@
+@mixin display-position {
+  display: block;
+  position: relative;
+}
+@mixin wh-auto{
+  width: auto;
+  height: auto;
+}
+@mixin class-bold{
+  font-size: 16px;
+  font-weight: bold;
+}
+@mixin position-left{
+	width: auto;
+	position: relative;
+	float: left;
+}

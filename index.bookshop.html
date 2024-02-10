@@ -1,0 +1,509 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width; initial-scale=1;" />
+	<link rel="stylesheet" href="css/all.css" type="text/css"/>
+	<link rel="stylesheet" href="sass/fonts.css" type="text/css"/>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/logo.png"/>
+	<script type="text/javascript" src="js/jquery-3.3.1.js"></script>
+	<script src="js/slick.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<title>bookshop</title>
+</head>
+
+<body>
+	<div id="wrapper">
+		<header>
+			<div class="header-top">
+				<div class="layout">
+					<nav>
+						<ul class="navigation">
+							<li><a href="#">Sing in</a></li>
+							<li><a href="#">My Account</a></li>
+							<li><a href="#">Order Status</a></li>
+							<li><a href="#">Help</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+			<div class="header-container">
+				<div class="layout">
+					<div class="logo">
+						<h1>
+							books online
+							<a href="#">
+								<img src="./images/logo.png" alt="logo">
+							</a>
+						</h1>
+					</div>
+					<div class="search">
+						<form>
+							<input type="text" placeholder="">
+							<button type="submit">
+							  	<span class="img-search"><img src="./images/search.png" alt="search"></span>
+							  	<span class="text-search">Search</span>
+							</button>
+						</form>
+					</div>
+					<div class="cart">
+						<a href="">
+							<div class="img-cart">
+								<img src="./images/cart.png" alt="cart">
+							</div>
+							<div class="cart-text">
+								<span>Your cart</span>
+								<span class="quantity">(2 items)</span>
+							</div>
+						</a>
+						<div class="sum">
+							<p>$125.0</p>
+						</div>
+						<div class="button">
+							<a href="#" class="checkout">Checkout</a>
+						</div>	
+					</div>
+					<div class="wish-list">
+						<a href="">
+							<div class="img-wish-list">
+								<img src="./images/star.png" alt="star">
+							</div>
+							<div class="text-wish-list">
+								<p>Wish list</p>
+							</div>
+						<a href=""></a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main>
+			<div class="layout">
+				<ul class="top-categories-menu">
+					<li class="categories-item">
+						<a href="#" class="categories-link">computers</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">cooking</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">education</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">fiction</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">health</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">mathematics</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">medical</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">reference</a>
+					</li>
+					<li class="categories-item">
+						<a href="#" class="categories-link">science</a>
+					</li>
+				</ul>
+			</div>
+			<div class="border-categories"></div>
+			<div class="layout">
+				<div id="sidebar">
+					<h2>categories</h2>
+					<div class="sidebar-categories">
+						<p>all</p>
+						<ul class="menu-categories">
+							<li class="menu-categories-item">
+								<h3>Fiction & Literature</h3>
+								<ul class="categories-list">
+									<li>
+										<a href="">children</a>
+									</li>
+									<li>
+										<a href="">science</a> 
+									</li>
+									<li>
+										<a href="">fantasy</a>
+									</li>
+									<li>
+										<a href="">mystery</a>
+									</li>
+									<li>
+										<a href="">romance</a>
+									</li>
+									<li>
+										<a href="">horror</a>
+									</li>
+									<li>
+										<a href="">poetry</a>
+									</li>
+									<li>
+										<a href="">literature</a>
+									</li>
+									<li>
+										<a href="">crime</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-categories-item">
+								<h3>Non - Fiction</h3>
+								<ul class="categories-list">
+									<li>
+										<a href="">comic</a>
+									</li>
+									<li>
+										<a href="">cook</a>
+									</li>
+									<li>
+										<a href="">psychology</a>
+									</li>
+									<li>
+										<a href="">medical</a>
+									</li>
+									<li>
+										<a href="">art</a>
+									</li>
+									<li>
+										<a href="">photography</a>
+									</li>
+									<li>
+										<a href="">law</a>
+									</li>
+									<li>
+										<a href="">history</a>
+									</li>
+									<li>
+										<a href="">business</a>
+									</li>
+									<li>
+										<a href="">computer</a>
+									</li>
+								</ul>
+							</li>
+							<li class="menu-categories-item">
+								<h3>Other</h3>
+								<ul class="categories-list">
+									<li>
+										<a href="">baby</a>
+									</li>
+									<li>
+										<a href="">sex</a>
+									</li>
+									<li>
+										<a href="">travel</a>
+									</li>
+									<li>
+										<a href="">science</a>
+									</li>
+									<li>
+										<a href="">sports</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+					
+				</div>
+				<div id="content">
+					<h2>science fiction</h2>
+					<div class="catalog-products">
+						<ul class="catalog-products-list">
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-13.png" alt="book-13">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$50</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-12.png" alt="book-12">
+								</a>
+								<div class="products-description">
+									<a href="#">The war of Art</a>
+									<span class="price">$60</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-14.png" alt="book-14">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$25</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-11.png" alt="book-11">
+								</a>
+								<div class="products-description">
+									<a href="#">The Immortals of Meluha</a>
+									<span class="price">$80</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-10.png" alt="book-10">
+								</a>
+								<div class="products-description">
+									<a href="#">Life Is What You Make It</a>
+									<span class="price">$200</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-8.png" alt="book-8">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$200</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-2.png" alt="book-2">
+								</a>
+								<div class="products-description">
+									<a href="#">The war of Art</a>
+									<span class="price">$150</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-9.png" alt="book-9">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$100</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-7.png" alt="book-7">
+								</a>
+								<div class="products-description">
+									<a href="#">The Immortals of Meluha</a>
+									<span class="price">$152</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-6.png" alt="book-6">
+								</a>
+								<div class="products-description">
+									<a href="#">Life Is What You Make It</a>
+									<span class="price">$200</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-4.png" alt="book-4">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$220</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-3.png" alt="book-3">
+								</a>
+								<div class="products-description">
+									<a href="#">The war of Art</a>
+									<span class="price">$10</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-5.png" alt="book-5">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$22</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-2.png" alt="book-2">
+								</a>
+								<div class="products-description">
+									<a href="#">The Immortals of Meluha</a>
+									<span class="price">$300</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-1.png" alt="star">
+								</a>
+								<div class="products-description">
+									<a href="#">Life Is What You Make It</a>
+									<span class="price">$205</span>
+								</div>	
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-4.png" alt="book-4">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$220</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">									
+									<img src="./images/book-3.png" alt="book-3">
+								</a>
+								<div class="products-description">
+									<a href="#">The war of Art</a>
+									<span class="price">$10</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-5.png" alt="book-5">
+								</a>
+								<div class="products-description">
+									<a href="#">The Hare With Amber Eyes</a>
+									<span class="price">$22</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-2.png" alt="book-2">
+								</a>
+								<div class="products-description">
+									<a href="#">The Immortals of Meluha</a>
+									<span class="price">$300</span>
+								</div>
+							</li>
+							<li class="catalog-products-item">
+								<a class="products-link" href="#">
+									<img src="./images/book-1.png" alt="star">
+								</a>
+								<div class="products-description">
+									<a href="#">Life Is What You Make It</a>
+									<span class="price">$205</span>
+								</div>
+							</li>	
+						</ul>
+					</div>
+					<div class="catalog-page-list-wrap">
+						<ul class="page-list">
+							<li class="page-item">
+								<a href="#">1</a>
+							</li>
+							<li class="page-item">
+								<a href="#">2</a>
+							</li>
+							<li class="page-item">
+								<a class="current" href="#">3</a>
+							</li>
+							<li class="page-item">
+								<a href="#">4</a>
+							</li>
+							<li class="page-item">
+								<a href="#">5</a>
+							</li>
+							<li class="page-item">
+								<a href="#">6</a>
+							</li>
+						</ul>
+						</nav> 
+					</div>
+
+				</div>
+			</div>
+		</main>
+		<footer>
+			<div class="footer-columns">
+				<div class="layout">
+					<div class="categories-footer">
+						<ul class="categories-footer-list">
+							<li>
+								<h4>biography & true stories</h4>
+								<a href="#">general</a>
+								<a href="#">diaries, letters & journals</a>
+								<a href="#">memoirs</a>
+								<a href="#">true stories</a>
+								<a href="#">generic exams</a>
+								<a href="#">GK titles</a>
+								<a href="#">medical entrance</a>
+								<a href="#">other entrance exams</a>
+								<a href="#">PG entrance examinations</a>
+								<a href="#">self-help titles</a>
+								<a href="#">sociology</a>
+							</li>
+							<li>
+								<h4>professional & reference </h4>
+								<a href="#">academic and reference</a>
+								<a href="#">business trade</a>
+								<a href="#">engineering and computer science</a>
+								<a href="#">humanities, social sciences and languages</a>
+								<a href="#">introduction to computers</a>
+								<a href="#">science and maths</a>
+								<a href="#">trade business</a>
+								<a href="#">english language & literature</a>
+								<a href="#">english language teaching</a>
+								<a href="#">environment awareness</a>
+								<a href="#">environment protection</a>
+							</li>
+							<li>
+								<h4>earth sciences</h4>
+								<a href="#">earth sciences</a>
+								<a href="#">geography</a>
+								<a href="#">the environment</a>
+								<a href="#">regional & area planning</a>
+								<a href="#">fantasy</a>
+								<a href="#">gay</a>
+								<a href="#">humorous</a>
+								<a href="#">interactive</a>
+								<a href="#">legal</a>
+								<a href="#">lesbian</a>
+								<a href="#">men'S adventure</a>
+							</li>
+							<li>
+								<h4>mathematics</h4>
+								<a href="#">algebra</a>
+								<a href="#">differential equations</a>
+								<a href="#">discrete mathematics</a>
+								<a href="#">fourier analysis</a>
+								<a href="#">numerical analysis</a>
+								<a href="#">probability</a>
+								<a href="#">statistical methods/data analysis</a>
+								<a href="#">stochastic and random processes</a>
+								<a href="#">topology</a>
+								<a href="#">statistics</a>
+								<a href="#">mathematics</a>
+							</li>
+							
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-banking">
+				<div class="layout">
+					<div class="banking-text">
+						<p>We accept all major Credit Card/Debit Card/Internet Banking</p>
+					</div>
+					<div class="banking-img">
+						<img src="./images/icon-master.png" alt="master-card">
+						<img src="./images/icon-american.png" alt="american">
+						<img src="./images/icon-visa.png" alt="visa">
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright">
+				<p>Conditions of Use Privacy Notice Interest-Based Ads © 1996-2013, Booksonline, Inc. or its affiliates</p>
+			</div>			
+		</footer>
+		
+	</div>
+</body>
+</html>
